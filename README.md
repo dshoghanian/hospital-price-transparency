@@ -1,4 +1,5 @@
 # Hospital Price Transparency — Analysis & ML
+### By: Dante Shoghanian
 
 Reproducible repo scaffolding for analyzing the **Transparency in Hospital Prices** dataset and training baseline ML models (Naïve Bayes, Decision Trees, SVM, Association Rules, K-Means, HDBSCAN).  
 Primary notebook: `notebooks/healthcare_transparency.ipynb`.
