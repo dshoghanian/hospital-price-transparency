@@ -1,6 +1,6 @@
 # Hospital Price Transparency — Business Analytics & ML
 
-A portfolio‑grade project that converts raw hospital price transparency files into **business insights** for pricing strategy, payer negotiations, and market segmentation. The end‑to‑end workflow covers **scalable cleaning**, **feature engineering**, **exploratory analysis**, **predictive modeling**, **clustering**, and **association rule mining**—all presented in a decision‑oriented way.
+A project that converts raw hospital price transparency files into **business insights** for pricing strategy, payer negotiations, and market segmentation. The end‑to‑end workflow covers **scalable cleaning**, **feature engineering**, **exploratory analysis**, **predictive modeling**, **clustering**, and **association rule mining**—all presented in a decision‑oriented way.
 
 > **Dataset**: Kaggle — *Transparency in Hospital Prices* (by jpmiller). See the dataset page for terms and license.
 
@@ -77,7 +77,7 @@ This repository shows a **repeatable analytics pipeline** that:
 
 ---
 
-## Key Results (Selected)
+## Key Results
 
 - **Top 10 procedures by count**:  
   `code_Other` (68,376), `code_NONE` (53,560), `code_C1713` (12,591), `code_27200005` (4,736), `code_C1776` (2,798) …  
@@ -90,8 +90,6 @@ This repository shows a **repeatable analytics pipeline** that:
   - Best SVM (RBF, balanced) **accuracy ~0.778**.  
 - **Clustering**: K‑Means (k=4) with **Silhouette 0.451**; HDBSCAN **284 micro‑clusters**, **26.8% noise** → heterogeneous sub‑markets.  
 - **Rules**: **227** robust (bootstrap); **157** unique across CV, **71** (45.2%) persist across all folds. Prominent locales: **NEW_ALBANY, AUSTIN, ALBUQUERQUE, CHICAGO**; states **IN, NM, IL, KY**.
-
-> *All figures and tables appear inline in the notebook.*
 
 ---
 
@@ -146,10 +144,3 @@ hospital-price-transparency/
 ## Acknowledgments
 
 - Dataset: *Transparency in Hospital Prices* (Kaggle) by **jpmiller**.  
-- Faculty guidance and feedback acknowledged in notebook header.
-
----
-
-## About the Author
-
-**Dante Shoghanian** — MSBA candidate focused on **healthcare analytics**. I build scalable analytics pipelines and translate modeling outputs into **clear, high‑leverage decisions** for pricing, contracting, and operations.
